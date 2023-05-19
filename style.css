@@ -1,0 +1,101 @@
+body {
+	background-color: pink;
+	color: black;
+	font-family: 'Lora', serif;
+}
+h1 {
+	color: Yellow;
+	font-family:'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 10px;
+	font-size: 40px;
+}
+
+h2 { 
+color: #3A4F7A;
+font-size: 24px;
+font-weight: bold;
+font-weight: 200;
+}
+
+h3 { 
+color: #3A4F7A;
+font-size: 24px;
+font-weight: bold;
+}
+
+h4 {
+color: #3A4F7A;
+font-size: 24px;
+font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(100, 100, 100);
+	font-weight: bold;
+	font-size: 12px;
+	font-family:'Raleway', sans-serif;
+}
+a: hover {
+	color: blue;
+	tex-decoration: underline;
+}
+.img-circle{
+	border-radius: 50%;
+}
+
+div { 
+	background: pink;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 15px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	width: 700px;
+	margin: 0px auto;
+
+.perfect-circle{ 
+width: 100px;
+height: 100px
+border-radius: 50%;
+ }
+
+/* Custom design with class (99% of your design) */
+
+.container { 
+width: 700px;
+margin: 40px auto;
+ }
+ 
+ .card-white {
+ 	text-align: center;
+ }
+
+ .btn-blue { 
+ 	background-color: rgba(0,0,0,.1);
+ 	padding: 15px 20px;
+ 	border-radius: 50%;
+
+ }
+
+ .list-inline {
+ 	list-style: none;
+ 	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
